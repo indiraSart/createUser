@@ -1,21 +1,27 @@
-<html lang="nb">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oprett bruker </title>
+    <title>oprett bruker</title>
     <link reel="stylesheet" href="./css/main.css">
-    <script src="./javascript/script.js"></script>
+    <script src="../javascript/script.js"></script>
 
 </head>
 <body>
-    <h1>Logg inn</h1>
+    <h1>Opprett bruker</h1>
     <form action="" method="Post">
     <label for="epost">Epost</label>
     <input id="email" type="email">
     <label for="passord">Passord</label>
     <input id="passord" type="password">
-</form>
-<button onclick="loggIn()">logg inn</button>
-    <a href="./html/createuser.html">Ny bruker?</a>
+    <label for="gjentapassord">gjenta passord</label>
+    <input id="gjentapassord" type="password">
+    </form>
+<button onclick="sendInn()">opprett bruker</button>
+
 </body>
+
+
+
+
 </html>
